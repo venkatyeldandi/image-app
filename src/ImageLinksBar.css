@@ -1,0 +1,40 @@
+.ImageLinksBar {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+  }
+  
+  .ImageLinksBar a {
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ImageLinksBar::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .ImageLinksBar::-moz-scrollbar-track {
+    background-color: transparent;
+  }
+  .ImageLinksBar::-ms-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  /* Make the scrollbar thumb semi-transparent */
+  .ImageLinksBar::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .ImageLinksBar::-moz-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .ImageLinksBar::-ms-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
